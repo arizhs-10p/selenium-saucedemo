@@ -82,7 +82,7 @@ public class WebTestScenarios extends BaseClass {
     @Test(priority = 1)
     public  void login1() throws InterruptedException {
         ExtentTest test2 = extent.createTest("Open SauceDemo", "Test to validate Valid Credentials");
-        test2.log(Status.INFO, "Starting test case successful login");
+        test2.log(Status.INFO, "Starting test case successful loginn");
         driver.get(Url3);
         driver.manage().window().minimize();
         WebElement usernameInput = driver.findElement(By.id("user-name"));
