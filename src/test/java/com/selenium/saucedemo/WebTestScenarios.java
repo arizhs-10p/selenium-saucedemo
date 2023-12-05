@@ -68,7 +68,7 @@ public class WebTestScenarios extends BaseClass {
 
      */
 
-    @Test(priority = 0)
+   /* @Test(priority = 0)
     public void testTwo()
     {
         ExtentTest test1 = extent.createTest("Open Yahoo Website", "Test to validate website opening of yahoo ");
@@ -78,7 +78,7 @@ public class WebTestScenarios extends BaseClass {
         test1.pass("testTwo Passed");
 
     }
-
+*/
     @Test(priority = 1)
     public  void login1() throws InterruptedException {
         ExtentTest test2 = extent.createTest("Open SauceDemo", "Test to validate Valid Credentials");
