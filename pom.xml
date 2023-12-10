@@ -8,6 +8,7 @@
     <artifactId>selenium-saucedemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
+        <finalName>selenium-saucedemo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
